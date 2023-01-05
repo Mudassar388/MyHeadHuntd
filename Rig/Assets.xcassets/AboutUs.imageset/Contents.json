@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "undraw_fans_re_cri3 1About_us.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "undraw_fans_re_cri3 1About_us copy 2.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "undraw_fans_re_cri3 1About_us copy.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

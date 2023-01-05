@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Debug</key>
+	<dict>
+		<key>PayfortEnvoirnment</key>
+		<string></string>
+		<key>BaseURLEndpoint2</key>
+		<string></string>
+		<key>BaseURLAudio</key>
+		<string></string>
+		<key>BaseURLImage</key>
+		<string></string>
+		<key>BaseURLEndpoint</key>
+		<string></string>
+		<key>BaseURLV</key>
+		<string></string>
+		<key>BaseURLVOffers</key>
+		<string></string>
+		<key>BaseURLAuthEndpoint</key>
+		<string></string>
+		<key>BaseURLEndpointPartner</key>
+		<string></string>
+		<key>BaseURL</key>
+		<string>http://techsocialserver.space/api/</string>
+	</dict>
+	<key>Release</key>
+	<dict>
+		<key>BaseURL</key>
+		<string>http://techsocialserver.space/api/</string>
+		<key>BaseURLEndpointPartner</key>
+		<string></string>
+		<key>BaseURLAuthEndpoint</key>
+		<string></string>
+		<key>BaseURLVOffers</key>
+		<string></string>
+		<key>BaseURLV</key>
+		<string></string>
+		<key>BaseURLEndpoint</key>
+		<string></string>
+		<key>BaseURLImage</key>
+		<string></string>
+		<key>BaseURLAudio</key>
+		<string></string>
+		<key>BaseURLEndpoint2</key>
+		<string></string>
+		<key>PayfortEnvoirnment</key>
+		<string></string>
+	</dict>
+	<key>Staging</key>
+	<dict>
+		<key>BaseURL</key>
+		<string>http://techsocialserver.space/api/</string>
+		<key>BaseURLEndpointPartner</key>
+		<string></string>
+		<key>BaseURLV</key>
+		<string></string>
+		<key>BaseURLEndpoint</key>
+		<string></string>
+		<key>BaseURLAuthEndpoint</key>
+		<string></string>
+		<key>BaseURLImage</key>
+		<string></string>
+		<key>BaseURLAudio</key>
+		<string></string>
+		<key>BaseURLEndpoint2</key>
+		<string> </string>
+		<key>PayfortEnvoirnment</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

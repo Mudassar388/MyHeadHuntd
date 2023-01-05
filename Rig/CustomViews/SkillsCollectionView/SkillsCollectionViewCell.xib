@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SkillsCollectionViewCell" customModule="Headhuntd" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="206" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="206" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uci-Cj-zWg">
+                        <rect key="frame" x="0.0" y="0.0" width="206" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfO-al-19T">
+                                <rect key="frame" x="15" y="16" width="151" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9F-6K-xp4">
+                                <rect key="frame" x="176" y="15" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="u9F-6K-xp4" secondAttribute="height" multiplier="1:1" id="3wT-If-upZ"/>
+                                    <constraint firstAttribute="height" constant="20" id="XCU-KW-muI"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="multiply" catalog="system" symbolScale="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelBtnPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="WRM-BF-HcN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="greenColor"/>
+                        <constraints>
+                            <constraint firstItem="u9F-6K-xp4" firstAttribute="centerY" secondItem="uci-Cj-zWg" secondAttribute="centerY" id="JuH-06-NjY"/>
+                            <constraint firstItem="u9F-6K-xp4" firstAttribute="leading" secondItem="NfO-al-19T" secondAttribute="trailing" constant="10" id="U6j-T8-Qfs"/>
+                            <constraint firstAttribute="trailing" secondItem="u9F-6K-xp4" secondAttribute="trailing" constant="10" id="awT-H8-YMa"/>
+                            <constraint firstItem="NfO-al-19T" firstAttribute="centerY" secondItem="uci-Cj-zWg" secondAttribute="centerY" id="dvU-0w-mHv"/>
+                            <constraint firstItem="NfO-al-19T" firstAttribute="leading" secondItem="uci-Cj-zWg" secondAttribute="leading" constant="15" id="w3r-5f-4aW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="uci-Cj-zWg" secondAttribute="trailing" id="PXm-mX-7Eb"/>
+                <constraint firstItem="uci-Cj-zWg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="UjY-4t-405"/>
+                <constraint firstAttribute="bottom" secondItem="uci-Cj-zWg" secondAttribute="bottom" id="VUo-4f-4oi"/>
+                <constraint firstItem="uci-Cj-zWg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wVj-O0-WfH"/>
+            </constraints>
+            <size key="customSize" width="206" height="37"/>
+            <connections>
+                <outlet property="cancelBtn" destination="u9F-6K-xp4" id="meW-ZX-cVh"/>
+                <outlet property="skillView" destination="uci-Cj-zWg" id="np7-KZ-5Kb"/>
+                <outlet property="skillsLabel" destination="NfO-al-19T" id="e8H-re-Okr"/>
+            </connections>
+            <point key="canvasLocation" x="207.24637681159422" y="93.080357142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="multiply" catalog="system" width="128" height="111"/>
+        <namedColor name="greenColor">
+            <color red="0.32941176470588235" green="0.73725490196078436" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
